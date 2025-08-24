@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import logo from '../assets/images/logo.png'; // Update the path as needed
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,8 +8,9 @@ const NavBar = () => {
   return (
     <div>
       <nav className="flex fixed top-0 left-0 w-full z-50 justify-between items-center bg-[#583227] text-white p-5 ">
-        <div>
-          <h1 className="text-2xl font-medium text-white">
+        <div className='flex items-center gap-5 '>
+          <img className='w-10 h-10 rounded-full' src={logo} alt="logo" />
+          <h1 className="text-2xl font-medium text-white"><span></span>
             Vinay <span className='text-yellow-500'>Interior Work</span>
           </h1>
         </div>
