@@ -1,4 +1,5 @@
 import React from 'react'
+import About from '../pages/About'
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
          <ul className="space-y-2 text-sm">
   <li><Link to="/" className="hover:text-yellow-500">Home</Link></li>
-  <li><Link to="/about" className="hover:text-yellow-500">About Us</Link></li>
+  <li><Link to="/about" element={About} className="hover:text-yellow-500">About Us</Link></li>
   <li><Link to="/gallery" className="hover:text-yellow-500">Gallery</Link></li>
   <li><Link to="/services" className="hover:text-yellow-500">Services</Link></li>
   <li><Link to="/contact" className="hover:text-yellow-500">Contact</Link></li>
@@ -32,8 +33,9 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact</h3>
             <p className="text-sm">📍 Vinay Interior Work , Bhopal</p>
-            <p className="text-sm">📞 +91 98765 43210</p>
-            <p className="text-sm">✉ VinayInteriorWork@gamil.com</p>
+        
+            <p className="text-sm">📞 9752278990  </p>
+            <p className="text-sm">✉ kumarvinay89301@gmail.com</p>
             <p className="text-sm">🕒 Mon–Sat, 10 AM – 7 PM</p>
           </div>
 
@@ -49,7 +51,7 @@ const Footer = () => {
             <a href="#" className="hover:text-yellow-500">📘</a>
             <a href="#" className="hover:text-yellow-500">💼</a>
           </div>
-          <p className="text-sm text-gray-400 mt-4 md:mt-0">© 2025 InterioCraft. All rights reserved.</p>
+          <p className="text-xl text-gray-400 mt-4 md:mt-0">Designed with ❤️ by VinayInterior Work  |   Creating timeless interiors since 2021. 😊 </p>
         </div>
       </footer>
     </div>

@@ -14,8 +14,8 @@ export default function ContactPage() {
         
         {/* Email */}
         <a
-          href="mailto:yourmail@example.com"
-          className="flex items-center space-x-3 bg-[#4e72f7] p-8 rounded-lg shadow hover:bg-yellow-500 transition hover:text-black hover:scale-105"
+          href="mailto:kumarvinay89301@gmail.com"
+          className="flex items-center space-x-3 bg-[#4e72f7] p-8 rounded-lg shadow hover:bg-yellow-500 transition hover:text-black hover:scale-105" 
         >
           <Mail className="w-6 h-6 text-white" />
           <h3 className="text-xl text-white font-bold ">Email us</h3>
